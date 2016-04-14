@@ -1,0 +1,21 @@
+Add the programs to the robot in RobotStudio(RS) like this:
+1. Start a Yumi station in RS (it's called IRB14000).
+2. Under the RAPID tab, expand the RAPID tree node in the explorer to the left. 
+3. Load the program by right-clicking on "T_ROB_L" -> "Load program" -> browse to where you stored the testsync_leftprogram.pgk file.
+4. Do the same with "T_ROB_R" and right program.
+5. Execute the program by clicking the "Start" icon. You can reset the program pointer in using the "Program pointer" icon.
+
+Connect to the real robot:
+1. Go (physically) to the lab and use a Windows computer connected to the Yumi. 
+2. In RS, connect to the robot by clicking on the Controller tab and then "Add controller" -> "One click connect".
+3. The robot controller should show up in the browser to the left. Add the programs using the same method as before.
+
+Run on the real robot:
+1. Take the flexpendant and check if the robot is in Manual mode and motors on. Otherwise ...
+Program key I (the physical key top right with "I") sets program pointer to main in all tasks.
+Prog key II toggles  motors on/off in manual mode.
+Prog key III toggles manual/auto mode.
+Prog key IV turns motors on in auto.
+
+You can run in manual/motors on. Press the physical "Play" - button to run. Test if it works. 
+
